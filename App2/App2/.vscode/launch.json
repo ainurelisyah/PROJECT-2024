@@ -1,0 +1,253 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "nthPowerDimention",
+            "request": "launch",
+            "mainClass": "lesson3.nthPowerDimention",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "Assg2",
+            "request": "launch",
+            "mainClass": "lesson1.Assignment060224.Assg2",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "MatrixPower2",
+            "request": "launch",
+            "mainClass": "lesson3.MatrixPower2",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "MatrixPower",
+            "request": "launch",
+            "mainClass": "lesson3.MatrixPower",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "MultiDimensionalArrays",
+            "request": "launch",
+            "mainClass": "lesson3.MultiDimensionalArrays",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "SelectionSort",
+            "request": "launch",
+            "mainClass": "lesson3.SelectionSort",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "SequentialSearch",
+            "request": "launch",
+            "mainClass": "lesson3.SequentialSearch",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "GenRandomArray",
+            "request": "launch",
+            "mainClass": "lesson3.GenRandomArray",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "ArrayFunction",
+            "request": "launch",
+            "mainClass": "lesson3.ArrayFunction",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "ArrayListStringManipulator",
+            "request": "launch",
+            "mainClass": "lesson3.ArrayListStringManipulator",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "ArrayListManipulator",
+            "request": "launch",
+            "mainClass": "lesson3.ArrayListManipulator",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "Assg1",
+            "request": "launch",
+            "mainClass": "lesson1.Assignment060224.Assg1",
+            "args": "",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "Q1",
+            "request": "launch",
+            "mainClass": "lesson1.quiz1.question1.Q1",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "lesson1.quiz1.question10.Test",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "Test(1)",
+            "request": "launch",
+            "mainClass": "lesson1.quiz1.question2.Test",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "Test(2)",
+            "request": "launch",
+            "mainClass": "lesson1.quiz1.question4.Test",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "Test(3)",
+            "request": "launch",
+            "mainClass": "lesson1.quiz1.question5.Test",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "Test(4)",
+            "request": "launch",
+            "mainClass": "lesson1.quiz1.question7.Test",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "ElvisOperator",
+            "request": "launch",
+            "mainClass": "lesson2.operators.exec1.ElvisOperator",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "Factorial",
+            "request": "launch",
+            "mainClass": "lesson2.operators.exec1.Factorial",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "Fibonacci",
+            "request": "launch",
+            "mainClass": "lesson2.operators.exec1.Fibonacci",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "FlowStatement",
+            "request": "launch",
+            "mainClass": "lesson2.operators.exec1.FlowStatement",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "FlowStatement2",
+            "request": "launch",
+            "mainClass": "lesson2.operators.exec1.FlowStatement2",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "FlowStatement3",
+            "request": "launch",
+            "mainClass": "lesson2.operators.exec1.FlowStatement3",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "MatrixAdd",
+            "request": "launch",
+            "mainClass": "lesson2.operators.exec1.MatrixAdd",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "Numeric",
+            "request": "launch",
+            "mainClass": "lesson2.operators.exec1.Numeric",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "PrimeNumbers",
+            "request": "launch",
+            "mainClass": "lesson2.operators.exec1.PrimeNumbers",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "ScannerTest",
+            "request": "launch",
+            "mainClass": "lesson2.operators.exec1.ScannerTest",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "ScannerTest2",
+            "request": "launch",
+            "mainClass": "lesson2.operators.exec1.ScannerTest2",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "SwitchCase",
+            "request": "launch",
+            "mainClass": "lesson2.operators.exec1.SwitchCase",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "exec1",
+            "request": "launch",
+            "mainClass": "lesson2.operators.exec1.exec1",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "exec2",
+            "request": "launch",
+            "mainClass": "lesson2.operators.exec1.exec2",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "exec3",
+            "request": "launch",
+            "mainClass": "lesson2.operators.exec1.exec3",
+            "projectName": "App2_5baa47cc"
+        }
+    ]
+}
