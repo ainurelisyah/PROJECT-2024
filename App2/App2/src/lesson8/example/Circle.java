@@ -1,0 +1,30 @@
+package lesson8.example;
+
+public class Circle extends Border implements Shape{
+    
+    private double radius;
+
+    //circle constructor
+    public Circle(double radius){
+        this.radius = radius;
+    }
+
+    @Override
+    public double calculateArea() {
+        return Math.PI * Math.pow(this.radius, 2);
+    }
+
+    @Override
+    public double calculatePerimeter() {
+        return 2 * Math.PI * Math.pow(this.radius, 2);
+    }
+
+    @Override
+    public boolean fillable() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'fillable'");
+    }
+
+   
+
+}

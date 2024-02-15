@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Algorithm",
+            "request": "launch",
+            "mainClass": "lesson8.GenericAlgorithm.Algorithm",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "GenericSorter",
+            "request": "launch",
+            "mainClass": "lesson8.GenericSorting.GenericSorter",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "Matrix",
+            "request": "launch",
+            "mainClass": "lesson8.GenericMatrix.Matrix",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "GenericQueue",
+            "request": "launch",
+            "mainClass": "lesson8.GenericQueue.GenericQueue",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "Pair",
+            "request": "launch",
+            "mainClass": "lesson8.PairClass.Pair",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "GenericStack",
+            "request": "launch",
+            "mainClass": "lesson8.GenericStack.GenericStack",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "lesson8.Ass1.Main",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "lesson8.example.Main",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
             "name": "WriteFile",
             "request": "launch",
             "mainClass": "lesson7.exercise.WriteFile",
