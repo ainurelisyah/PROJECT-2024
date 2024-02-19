@@ -4,14 +4,18 @@ import java.awt.BorderLayout;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+
 import javax.swing.*;
 
-public class SimpleCalculator extends JFrame implements ActionListener {
+public abstract class SimpleCalculator extends JFrame implements ActionListener {  //interfaces
 
-    private JTextField displayField;
-    private String currentInput; // USe string bcs user input for numerical values & operators (+-/*)
-    private char lastOperator;
-    private double result;
+    protected JTextField displayField;
+    protected String currentInput; // USe string bcs user input for numerical values & operators (+-/*)
+    protected char lastOperator;
+    protected double result;
 
     public SimpleCalculator() {
         currentInput = "";
@@ -38,12 +42,13 @@ public class SimpleCalculator extends JFrame implements ActionListener {
 
         // Button labels
         String[] buttonLabels = {
-                "C", "+/-", "%", "/", // C is clear button & another function ("+/-", "%" ) dont have function yet
+                "C", "+/-", "%", "1/x", // C is clear button & another function ("+/-", "%" ) dont have function yet
+                "x^2", "sqrt", "x^n", "/", 
                 "7", "8", "9", "*",
                 "4", "5", "6", "-", // how the button will display
                 "1", "2", "3", "+",
-                "0", ".", "=", "Del", // delete button
-                "x^2", "sqrt", "x^n", "1/x"
+                "0", ".", "=", "Del" // delete button
+                
         };
 
         // Add button to the panel
@@ -57,6 +62,7 @@ public class SimpleCalculator extends JFrame implements ActionListener {
         add(buttonsPanel, BorderLayout.CENTER);
     }
 
+    //ActionListener inner class 
     @Override
     public void actionPerformed(ActionEvent e) { // method of the actionListener interface
         String command = e.getActionCommand(); // retrieve action command associated with the action
@@ -103,131 +109,36 @@ public class SimpleCalculator extends JFrame implements ActionListener {
         }
     }
 
-    private void calculateResult() {
-        try {
-            double operand = Double.parseDouble(currentInput);
-            // switch statement on the lastoperator
-            switch (lastOperator) {
-                case '+':
-                    result += operand;
-                    break;
+    protected abstract void calculateResult(); 
+        
+    protected abstract void handleOperator(char operator);
 
-                case '-':
-                    result -= operand;
-                    break;
+    protected abstract void clearInput();
 
-                case '*':
-                    result *= operand;
-                    break;
+    protected abstract void deleteInput();
 
-                case '/':
-                    if (operand != 0) {
-                        result /= operand;
-                    } else {
-                        displayField.setText("Error : Division by zero");
-                        return;
-                    }
-                    break;
+    protected abstract void square();
 
-                case '^':
-                    result = Math.pow(result, operand);
-                    break;
+    protected abstract void squareRoot();
 
-                default:
-                    result = operand;
-            }
+    protected abstract void power(); 
 
-            if (Double.isFinite(result)) {
-                displayField.setText(Double.toString(result));
-            } else {
-                displayField.setText("Error: Invalid result");
-            }
+    protected abstract void reciprocal();
 
-            if (result % 1 == 0) { // check if the value is int or not
-                displayField.setText(Integer.toString((int) result)); // true : it'll show text int
-            } else {
-                displayField.setText(Double.toString(result)); // double value
-            }
+    protected abstract boolean isOperator(char ch);
 
-            currentInput = "";
-        } catch (NumberFormatException ex) {
-            displayField.setText("Error");
-            currentInput = "";
+    protected void saveHistoryToFile(){
+        try (PrintWriter writer = new PrintWriter(new FileWriter("calculator_history.txt" , true))) {
+            writer.println("Expression: " + currentInput + ", Result: " + result);
+        }catch (IOException e) {
+            e.printStackTrace();
         }
     }
 
-    private void handleOperator(char operator) {
-        if (!currentInput.isEmpty()) { // condition: to ensure that there is a numeric input before performing the
-                                       // operation
-            calculateResult();
-            lastOperator = operator;
-        }
-    }
-
-    private void clearInput() {
-        currentInput = "";
-        displayField.setText("");
-        result = 0.0;
-        lastOperator = ' ';
-    }
-
-    private void deleteInput() {
-        if (!currentInput.isEmpty()) {
-            currentInput = currentInput.substring(0, currentInput.length() - 1);
-            displayField.setText(currentInput);
-        }
-    }
-
-    private void square() {
-        if (!currentInput.isEmpty()) {
-            double value = Double.parseDouble(currentInput);
-            result = Math.pow(value, 2);
-            displayField.setText(Double.toString(result));
-            currentInput = "";
-        }
-    }
-
-    private void squareRoot() {
-        if (!currentInput.isEmpty()) {
-            double value = Double.parseDouble(currentInput);
-            if (value >= 0) {
-                result = Math.sqrt(value);
-                displayField.setText(Double.toString(result));
-                currentInput = "";
-            } else {
-                displayField.setText("Error: Invalid input for sqrt");
-            }
-        }
-    }
-
-    private void power() {
-        if (!currentInput.isEmpty()) {
-            lastOperator = '^';
-            result = Double.parseDouble(currentInput);
-            currentInput = "";
-        }
-    }
-
-    private void reciprocal() {
-        if (!currentInput.isEmpty()) {
-            double value = Double.parseDouble(currentInput);
-            if (value != 0) {
-                result = 1 / value;
-                displayField.setText(Double.toString(result));
-                currentInput = "";
-            } else {
-                displayField.setText("Error: Division by zero");
-            }
-        }
-    }
-
-    private boolean isOperator(char ch) {
-        return ch == '+' || ch == '-' || ch == '*' || ch == '/' || (currentInput.equals("x^n") && ch == '^');
-    }
-
+    //inner class 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
-            SimpleCalculator calculator = new SimpleCalculator();
+            SimpleCalculator calculator = new MainCalculator();
             calculator.setVisible(true);
         });
     }

@@ -1,0 +1,4 @@
+Expression: , Result: 9.0
+Expression: , Result: 12.0
+Expression: , Result: 8.0
+Expression: , Result: 48.0
