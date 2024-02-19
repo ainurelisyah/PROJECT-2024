@@ -6,6 +6,97 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "lesson8.AbstractClass.Ass11.Main",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "lesson8.AbstractClass.Ass10.Main",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "lesson8.AbstractClass.Ass9.Main",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "lesson8.AbstractClass.Ass8.Main",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "lesson8.AbstractClass.Ass7.Main",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "lesson8.AbstractClass.Ass6.Main",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "AnimalHierarchyTest",
+            "request": "launch",
+            "mainClass": "lesson8.AbstractClass.Ass5.AnimalHierarchyTest",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "SortingTest",
+            "request": "launch",
+            "mainClass": "lesson8.AbstractClass.Ass4.SortingTest",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "SimpleCalculator",
+            "request": "launch",
+            "mainClass": "lesson9.Assignment.Calculator.SimpleCalculator",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "ExpenseTrackerApp",
+            "request": "launch",
+            "mainClass": "lesson9.example.ExpenseTrackerApp",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "lesson8.AbstractClass.Ass3.Main",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "lesson8.AbstractClass.Ass1.Main",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "GenericMap",
+            "request": "launch",
+            "mainClass": "lesson8.GenericMap.GenericMap",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
             "name": "Algorithm",
             "request": "launch",
             "mainClass": "lesson8.GenericAlgorithm.Algorithm",
