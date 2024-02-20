@@ -1,4 +1,4 @@
-package lesson8.AbstractClass.Ass2;
+package lesson8.AbstractClass.Ass12;
 
 public class Main {
     public static void main(String[] args) {

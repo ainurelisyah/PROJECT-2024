@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Test.S6.Test",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Test.S4.Test",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Test.S1.Test",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "SimpleCalculator",
+            "request": "launch",
+            "mainClass": "Calculator2.SimpleCalculator",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Calculator.Main",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "lesson10.Main",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "lesson8.AbstractClass.Ass2.Main",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "lesson8.AbstractClass.Ass11.Main",

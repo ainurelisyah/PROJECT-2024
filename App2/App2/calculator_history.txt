@@ -2,3 +2,13 @@ Expression: , Result: 9.0
 Expression: , Result: 12.0
 Expression: , Result: 8.0
 Expression: , Result: 48.0
+Expression: , Result: 6.0
+Expression: , Result: 9.0
+Expression: , Result: 5.0
+Expression: , Result: 2.0
+Expression: , Result: 9.0
+Expression: , Result: 54.0
+Expression: , Result: 9.0
+Expression: , Result: 6.0
+Expression: , Result: 6.0
+Expression: , Result: 9.0

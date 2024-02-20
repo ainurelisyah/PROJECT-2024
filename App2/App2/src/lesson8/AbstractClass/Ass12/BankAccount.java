@@ -1,4 +1,4 @@
-package lesson8.AbstractClass.Ass2;
+package lesson8.AbstractClass.Ass12;
 
 public interface BankAccount {
 
@@ -7,3 +7,4 @@ public interface BankAccount {
     double getBalance();
     
 }
+
