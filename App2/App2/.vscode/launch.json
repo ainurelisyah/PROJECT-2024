@@ -8,6 +8,69 @@
             "type": "java",
             "name": "Test",
             "request": "launch",
+            "mainClass": "lesson11.QUIZ.Q47.Test",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "lesson11.QUIZ.Q39.Test",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "lesson11.QUIZ.Q5.Test",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "lesson11.QUIZ.Q4.Test",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "lesson11.QUIZ.Q2.Test",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "lesson11.QUIZ.Q1.Test",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "ProducerConsume",
+            "request": "launch",
+            "mainClass": "lesson11.ProducerConsume",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "ThreadSynchronization",
+            "request": "launch",
+            "mainClass": "lesson11.ThreadSynchronization",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "SimpleThread",
+            "request": "launch",
+            "mainClass": "lesson11.SimpleThread",
+            "projectName": "App2_5baa47cc"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
             "mainClass": "Test.S6.Test",
             "projectName": "App2_5baa47cc"
         },
